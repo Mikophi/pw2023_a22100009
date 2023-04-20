@@ -9,10 +9,10 @@ $menu = query("SELECT * FROM gacoan_menu");
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daftar Mahasiwa</title>
+  <title>Mie Gacoan</title>
 </head>
 <body>
-  <h3>Daftar Mahasiwa</h3>
+  <h3>Gacoan Menu</h3>
   <a href="tambah.php">Tambah Menu</a>
   <br>
   <table border="1" cellpadding="10" cellspacing="0">

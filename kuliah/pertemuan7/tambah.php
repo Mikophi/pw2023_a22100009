@@ -13,9 +13,6 @@ document.location.href = 'latihan3.php';
 }
  ?>
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
