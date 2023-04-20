@@ -19,4 +19,26 @@ if(mysqli_num_rows($result) == 1 ){
 
 return $rows;
 }
+
+
+function tambah($data)
+{
+$conn = koneksi();
+
+$menu = htmlspecialchars ($data['menu']);
+$harga = htmlspecialchars ($data['harga']);
+$deskripsi = htmlspecialchars ($data['deskripsi']);
+
+$query = "INSERT INTO 
+gacoan_menu 
+VALUES (null, '$menu', '$harga', '$deskripsi')";
+
+  mysqli_query($conn, $query);
+  echo mysqli_error($conn);
+
+  return mysqli_affected_rows($conn);
+}
+
+
 ?>
+
